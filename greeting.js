@@ -14,6 +14,7 @@ function handleSubmit(event){ //if submit Name, it goes to currentValue, paint&s
     const currentValue = input.value;
     paintGreeting(currentValue);
     saveName(currentValue);
+    loadIndex();
 }
  
 function askForName() {
